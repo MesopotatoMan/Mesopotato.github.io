@@ -1,0 +1,123 @@
+body{
+font-family: tahoma;
+background-color: #ffffff
+}
+ul.navbar{
+list-style-type: none;
+padding: 0;
+margin: 0;
+position: absolute;
+top: 2em;
+left: 1em;
+width: 9em
+}
+h1{
+font-family: tahoma;
+}
+ul.navbar li{
+background: white;
+margin: 0.5em 0;
+padding: 0.3em;
+border-right: 1em solid black
+}
+ul.navbar a{
+text-decoration: none
+}
+a:link{
+color: blue
+}
+a:visited{
+color: purple
+}
+address{
+margin-top: 1em;
+padding-top: 1em;
+border-top: thin dotted;
+}
+table{
+border-collapse: collapse;
+border: 2px solid rgb(200,200,200);
+letter-spacing: 1px;
+font-size: 0.8rem;
+}
+td, th {
+border: 1px solid rgb(190,190,190);
+padding: 10px 20px;
+}
+
+th {
+background-color: rgb(235,235,235);
+}
+
+td {
+text-align: center;
+}
+
+tr:nth-child(even) td {
+background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+background-color: rgb(245,245,245);
+}
+
+caption {
+padding: 10px;
+} 
+
+
+
+
+
+/* new css that i want to use */
+<style>
+.title{
+font-family:tahoma;
+color:#0077ff;
+}
+
+header{
+text-align:center;
+background-color:#0077ff;
+color:#ffffff;
+padding-top:10px;
+
+}
+header hr{
+border:1px solid white;
+width:90%;
+}
+
+header h1{
+font-family:tahoma;
+}
+header a{
+font-family:tahoma;
+}
+
+body h1{
+font-family:tahoma;
+}
+
+p{
+font-family:arial;
+}
+
+.navbar{
+overflow:hidden;
+background-color:#000000;
+}
+.navbar a{
+float:left;
+color:#ffffff;
+text-align:center;
+padding:10px 10px;
+text-decoration:none;
+font-family:arial;
+width:10%;
+}
+.navbar a:hover{
+background-color:#0077ff;
+color:white;
+}
+</style>
